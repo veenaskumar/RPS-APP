@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./1_G9UfaUBS_VqtFILMe37fZw.jpeg">
+    <link rel="stylesheet" href="./app.css">
+    <title>RPS Game</title>
+    <style>
+        .rps>h1{
+            text-decoration:underline;
+            text-transform: uppercase;
+            text-indent: 1rem;
+            color:#fc9a1d !important;
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="rps">
+        <h1 style="color:#04aa6d">How is your Luck Today...!</h1>
+        <div class="maingame">
+            <button class="rpsbut" id="rock" value="rock">✊🏻</button>
+            <button class="rpsbut" id="paper" value="paper">🤚🏻</button>
+            <button class="rpsbut" id="scissor" value="scissor">✌🏻</button>
+        </div>
+    </div><br><br>
+    <div class="sub">
+    <div id="playerchoice"></div>
+    <div id="computerchoice"></div><br>
+    <div id="score"></div>
+    <div id="clear">clear</div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
